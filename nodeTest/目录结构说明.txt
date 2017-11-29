@@ -1,0 +1,11 @@
+1、node_modules 存放package.json中安装的模块，当你在package.json添加依赖的模块并安装后，存放在这个文件夹下
+2、test  自己测试的文件
+3、add、add.test、app、buildIndex.html、main等均为本地测试文件
+4、package.json  定义了这个项目所需要的各种模块，以及项目的配置信息（比如名称、版本、许可证等元数据）。npm install命令根据这个配置文件，自动下载所需的模块，也就是配置项目所需的运行和开发环境
+
+myapp 测试项目
+1、bin  node 可执行文件
+2、public  存放image、css、js等文件
+3、routes  存放路由文件
+4、views   存放视图文件或者说模板文件
+
